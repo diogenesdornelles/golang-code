@@ -1,0 +1,1 @@
+{"time":"2026-02-24T17:08:37.861468776-03:00","level":"ERROR","msg":"Conexão falhou","database":"postgres","attempt":3,"error":"timeout"}

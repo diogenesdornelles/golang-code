@@ -1,0 +1,2 @@
+{"level":"info","ts":1771963717.8615348,"msg":"failed to fetch URL","url":"http://example.com","attempt":3,"backoff":1}
+{"level":"info","ts":1771963717.8615386,"msg":"Failed to fetch URL: http://example.com"}

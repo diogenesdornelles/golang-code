@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{.Title}}</title>
+</head>
+
+<body>
+    <h1>{{.Message}}</h1>
+    <h2>Data de Criação: {{.DataCriacao}}</h2>
+    {{if .IsSignedIn}}
+    <p>Bem-vindo de volta!</p>
+    <p>Você está logado como</p>
+    {{else}}
+    <p>Por favor, faça login.</p>
+    <a href="/signin">Ir para página de login</a>
+    {{end}}
+</body>
+
+</html>

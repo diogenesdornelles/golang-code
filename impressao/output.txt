@@ -1,0 +1,2 @@
+Fprintf - Escrevendo no arquivo: {Alice 30}
+Fprint - Sem nova linha: [4 5 6]

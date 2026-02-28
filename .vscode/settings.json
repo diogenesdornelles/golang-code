@@ -1,0 +1,33 @@
+{
+
+    // Habilita a formatação ao salvar usando o padrão da linguagem
+    "editor.formatOnSave": true,
+    // Configurações específicas para a linguagem Go
+    "[go]": {
+        "editor.codeActionsOnSave": {
+            // Organiza os imports (adiciona os novos e remove os não usados)
+            "source.organizeImports": "always"
+        },
+        // Define o formatador padrão para Go
+        "editor.defaultFormatter": "golang.go",
+        // Garante que o caractere de tabulação seja usado (padrão do Go)
+        "editor.insertSpaces": false,
+        "editor.tabSize": 4
+    },
+    // Configurações do gopls (Language Server)
+    "go.languageServerFlags": [
+        "-remote=auto"
+    ],
+    "go.useLanguageServer": true,
+    // Mostra dicas de nomes de parâmetros e tipos (Inlay Hints)
+    // Muito útil enquanto você está aprendendo com o livro!
+    "go.inlayHints.parameterNames": true,
+    "go.inlayHints.functionTypeParameters": true,
+    "go.inlayHints.assignVariableTypes": true,
+    "go.inlayHints.compositeLiteralTypes": true,
+    "go.inlayHints.constantValues": true,
+    "go.inlayHints.rangeVariableTypes": true,
+    // Linting: usa o staticcheck por padrão
+    "go.lintTool": "staticcheck",
+    "go.lintOnSave": "package"
+}
